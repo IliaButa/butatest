@@ -129,38 +129,3 @@ a:active {
     margin: 10px;
     color: whitesmoke
 }
-
-/*новая часть*/
-
-.pack{
-    display: flex;
-    gap: 1rem;
-}
-
-.comment{
-    position: relative;
-    border-bottom: 1px dashed rgba(0,0,0,.5);
-    cursor: pointer;
-}
-
-.comment:hover>.tooltip{
-    opacity: 1;
-}
-
-.icon:hover{
-    color: #34495E;
-}
-
-.tooltip{
-    position: absolute;
-    background-color: whitesmoke;
-    color: #34495E;
-    border-radius: 20px;
-    padding: 0.2rem 10rem;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -70px;
-    will-change:transform;
-    opacity: 0;
-    transition: all 0.4s;
-}
